@@ -1,0 +1,40 @@
+*{ margin: 0; 
+padding: 0;
+}
+body{ background: url(pump.webp) no-repeat center center fixed;
+background-size: cover;
+}
+.container{ 
+    position: absolute;
+    top: 40%;
+    left: 35%;
+} 
+.container h2{ margin-bottom: 50px;
+     color: white;
+padding: 13px 0;
+  color: rgb(128, 115, 115);
+ font-size: 43px;
+}
+.box{ 
+    width: 100%; }
+    .box input{ color:white;
+        background: none;
+        width: 80%; 
+        border: none;
+        outline: none;
+        font-size: 20px;
+        margin:  23px 0;
+        padding: 5px 12px;
+        border-bottom: 2px solid aquamarine;
+    }
+    .btn{ cursor: pointer; color: aliceblue;
+        outline: none;
+        width: 25%;
+        margin: 12px 0;
+        padding: 6px;
+        border: solid 2px rgb(36, 150, 150);
+        border-radius: 10px; background: none;
+    }
+    .box i{ width: 25px;
+    text-align: center; 
+}
